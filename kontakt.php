@@ -72,7 +72,8 @@
         </div>
        
         <a href="kontakt.php" class="desktop desktopaktiv">Kontakt</a>
-
+        <a href="#" class="soeglink"><i class="fa fa-search"></i></a>
+        <p class="soeg"><i class="fa fa-search"></i>_________</p>
 
     </nav>
     <!-- burgermenu / mobil tilstand -->
@@ -85,8 +86,9 @@
                 <a href="mobilmenu1.html" class="undermenu">Sund &#38; smuk</a>
                 <a href="okonomi.html" class="undermenu">Økonomi</a>
                 <a href="mobilmenu2.html" class="undermenu">Kultur &#38; samfund</a>
-				<a href="kontakt.html" class="undermenu mobilaktiv">Kontakt</a>
-               
+				<a href="kontakt.php" class="undermenu mobilaktiv">Kontakt</a>
+               <p><input type="text" placeholder="Søg her"></p>
+                
 			</div>
 		</nav>
     <hr>
