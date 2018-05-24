@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="da">
+    
+<head>
+    <title>MY DAILY SPACE</title>
+    <!-- Æ, ø og å -->
+    <meta charset="utf-8">
+    
+    <!-- Så den også virker på smartphones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="style-base.css">
+   
+    <link rel="stylesheet" type="text/css" href="style-medium.css" media="screen and (min-width: 650px)">
+
+    <link rel="stylesheet" type="text/css" href="style-large.css" media="screen and (min-width: 900px)">
+    
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Didot">
+    
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Bodoni">
+    
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+    
+    <!-- Burgermenu script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+   
+</head>
+<body>
+    
+     <!-- SEO META TAGS -->
+   <meta name="description" content="MY DAILY SPACE er et nyheds- og livsstilsmedie. Det er dit univers for kvinder, og her er alle de seneste nyheder samlet på et sted.">
+   <meta name="keywords" content="my daily space, kvinder, kvindeunivers, livsstilsmedie, nyheder">
+    
+    <!-- logo -->
+	<a href="forside.php"><img src="billeder/logo.svg" class="logo" alt="logo"></a>
+    <hr>
+    
+     <!-- burgermenu - computer tilstand -->
+    <nav class="desktop">        
+        <a href="forside.php" class="desktop">Forside</a>
+        <a href="nyheder.html"  class="desktop">Nyheder</a>
+        <a href="ditliv.html"  class="desktop">Dit liv</a>
+
+        <!-- dropdown menu -->
+        <div class="dropdown">
+            <button class="dropbtn">Sund &#38; smuk <i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="skonhed.html">Skønhed</a>
+                    <a href="mode.html" >Mode</a>
+                    <a href="sundhed.html">Sundhed</a>
+                    <a href="opskrifter.html">Opskrifter</a>
+                </div>
+        </div>
+        
+        <a href="okonomi.html" class="desktop">Økonomi</a>
+        
+        <!-- dropdown menu -->
+        <!-- dropdown menu -->
+        <div class="dropdown">
+            <button class="dropbtn desktopaktiv">Livsstil <i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="rejser.html">Rejser</a>
+                    <a href="kultur.html">Kultur</a>
+                    <a href="bolig.html" class="desktopaktiv">Bolig</a>
+                    <a href="underholdning.html">Underholdning</a>
+                </div>
+        </div>
+       
+        <a href="kontakt.php" class="desktop">Kontakt</a>
+    </nav>
+    
+    <!-- burgermenu / mobil tilstand -->
+    <nav class="mobile">
+        <button></button>
+			<div>
+				<a href="forside.php" class="undermenu">Forside</a>
+                <a href="nyheder.html" class="undermenu">Nyheder</a>
+                <a href="ditliv.html" class="undermenu">Dit liv</a>
+                <a href="mobilmenu1.html" class="undermenu">Sund &#38; smuk</a>
+                <a href="okonomi.html" class="undermenu">Økonomi</a>
+                <a href="mobilmenu2.html" class="undermenu mobilaktiv">Livsstil</a>
+				<a href="kontakt.php" class="undermenu">Kontakt</a>
+               
+			</div>
+		</nav>
+    <hr>
+    <!-- Brødkrummesti -->
+    
+    <div class="krummesti"><p>Forside <i class="fas fa-arrow-right"></i> Livsstil <i class="fas fa-arrow-right"></i> Bolig</p></div>
+
+        <!-- Overskrift -->
+ <h1 class="artikel-overskrift"> Bolig </h1>
+
+    <!-- Artikelbilleder -->
+     <div class="row"> 
+        <div class="column">
+            <a href="artikel1-bolig.html"><img src="billeder/bolig-artikel1.png" alt="mydailyspace"></a>
+            <a href="artikel2-bolig.html"><img src="billeder/bolig-artikel2.png" alt="mydailyspace"></a>
+            <a href="artikel3-bolig.html"><img src="billeder/bolig-artikel3.png" alt="mydailyspace"></a>
+            <a href="artikel4-bolig.html"><img src="billeder/bolig-artikel4.png" alt="mydailyspace"></a>
+            <a href="artikel5-bolig.html"><img src="billeder/bolig-artikel5.png" alt="mydailyspace"></a>
+            <a href="artikel6-bolig.html"><img src="billeder/bolig-artikel6.png" alt="mydailyspace"></a>
+           <a href="artikel1-bolig.html"><img src="billeder/bolig-artikel1.png" alt="mydailyspace"></a>
+            <a href="artikel2-bolig.html"><img src="billeder/bolig-artikel2.png" alt="mydailyspace"></a>
+            <a href="artikel3-bolig.html"><img src="billeder/bolig-artikel3.png" alt="mydailyspace"></a>
+            <a href="artikel4-bolig.html"><img src="billeder/bolig-artikel4.png" alt="mydailyspace"></a>
+            <a href="artikel5-bolig.html"><img src="billeder/bolig-artikel5.png" alt="mydailyspace"></a>
+            <a href="artikel6-bolig.html"><img src="billeder/bolig-artikel6.png" alt="mydailyspace"></a>
+    </div>
+    </div>
+
+<!-- Burgermenu -->
+<script src="burgermagic.js"></script>
+    
+<!-- Javascript, får links til at åbne i ny browser -->
+<script src="javascript.js"></script>
+    
+<footer>
+
+    <div class="kontakt"><p>MY DAILY SPACE // Kompagnistræde 14 København K // Kontakt: ta@mydailyspace.dk</p></div>
+    
+    
+<!-- FB, Insta og YT symboler -->
+    
+    <div class="symboler">
+        <a href="javascript:voied();" onClick="popIt('https://www.facebook.com/mydailyspace/')"><i class="fab fa-facebook-f"></i></a>
+        <a href="javascript:voied();" onClick="popIt('https://www.instagram.com/mydailyspace/')"><i class="fab fa-instagram"></i></a>
+        <a href="javascript:voied();" onClick="popIt('https://www.youtube.com/channel/UCMUKwQ-kR3lzarmwqxM9mSQ')"><i class="fab fa-youtube"></i></a>
+        
+        
+    </div>
+
+</footer>
+    
+</body>
+
+     
+</html>

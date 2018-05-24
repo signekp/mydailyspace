@@ -1,0 +1,226 @@
+/* Forside */
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 20%;
+    margin: 0% 40% -1% 40%;
+}
+
+hr {
+   
+}
+
+
+/* Forside // nyeste artikler */
+
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+.column img {
+width: 25%;
+padding: 0px 25px 0px 25px;
+    
+}
+
+
+/* forside // lang reklame */
+
+.reklame-forside img {
+    width: 80%;
+    margin: 2% 10% 2% 10%;
+}
+
+/* H1 (Seo) // Forside */
+h1 {
+    text-align: center;
+     font-size: 35px;
+
+}
+
+/* Forside // Instaslide */
+
+.snapwidget-widget {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Forside - overskrifter */ 
+
+h1 hr {
+    margin-top: 0px;
+}
+
+.overskrift {
+    text-align: left;
+    width: 86%;
+    margin: 0% 7% 0% 7%;
+    font-size: 33px;
+
+}
+
+/* Nyhedsbrev-boks */
+.nyhedsbrev-boks {
+    width: 40%;
+    margin: 0 auto;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nyhedsbrev-tekst {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    border: #d1d1d1 1px solid;; 
+    height: 25px;
+    font-family: Didot;
+    font-size: 16px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.forside-knap {
+    width: 20%;
+    margin-bottom: 20px;
+    
+    
+}
+
+.kontakt-tekst {
+    width: 70%;
+    margin: 0% 15% 1% 15%;
+    font-size: 20px;
+}
+
+.video-omos {
+    width: 70%;
+    height: 500px;
+    margin: 0% 15% 0% 15%;
+}
+
+.nyheds-tekst {
+    padding: 15px;
+}
+
+/* Kontaktboks */ 
+
+.form-box {
+    margin-bottom: 2%;
+}
+.knap {
+    width: 20%;
+    margin-top: 2%;
+}
+
+.tekst {
+    width: 30%;
+}
+
+textarea {
+    width: 50%;
+    height: 100px;
+}
+
+/* Artikel design */
+
+.artikel-baggrund {
+    width: 70%;
+    margin: 0% 15% 2% 15%;
+    border: 1px solid #bcbcbc
+}
+
+.artikel-baggrund h2 {
+    font-size: 27px;
+    padding: 2% 3% 0.5% 3%;
+    font-family: helvetica neue;
+    text-align: left;
+}
+
+.artikel-baggrund h1 {
+    text-align: left;
+    font-size: 27px;
+    padding: 2% 3% 0.5% 3%;
+    font-family: helvetica neue;
+}
+
+.artikel-baggrund p {
+    font-size: 16px;
+    padding: 0% 3% 2% 3%;
+    font-family: helvetica neue;
+    letter-spacing: 0.05em;
+}
+
+.fototekst {
+    width 80%;
+    margin: 0% 10% 1% 10%;
+    font-size: 14px;
+}
+
+.infogram-embed {
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+}
+
+.artikel-storbillede {
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+}
+
+
+.artikel-smabillede {
+    width: 36%;
+    margin: 0% 32% 0% 32%;
+}
+
+.video {
+    width: 90%; 
+    height: 500px;
+    margin: 0% 5% 0% 5%;
+        
+}
+
+.fa-arrow-left {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.fb-share-button img {
+    width: 7%;
+    margin-left: 5px;
+}
+
+/* Footer design */
+
+footer {
+        width: 100%;
+        height: 100px;
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+footer p {
+    padding: 42px 0px 0px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.kontakt {
+    width: 70%;
+}
+
+.symboler {
+    font-size: 50px;
+    padding-top: 1%;
+}
