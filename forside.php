@@ -49,13 +49,12 @@ if(isset($_POST["signUp"])){
     <!-- Burgermenu script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
-   
-</head>
-<body>
-    
     <!-- SEO META TAGS -->
    <meta name="description" content="MY DAILY SPACE er et nyheds- og livsstilsmedie. Det er dit univers for kvinder, og her er alle de seneste nyheder samlet på et sted.">
    <meta name="keywords" content="my daily space, kvinder, kvindeunivers, livsstilsmedie, nyheder">
+   
+</head>
+<body>
     
     <!-- logo -->
 	<a href="forside.php"><img src="billeder/logo.svg" class="logo" alt="logo"></a>
@@ -115,9 +114,9 @@ if(isset($_POST["signUp"])){
 		</nav>
 
     
-        <div class="w3-content w3-section" style="max-width:80%; margin: 1% 10% 2% 10%;">
-  <a href="mode-artikel3.html"><img class="mySlides" src="billeder/forside-slide1.jpg" style="width:100%"></a>
-  <a href="opskrift-artikel2.html"><img class="mySlides" src="billeder/forside-slide2.jpg" style="width:100%"></a>
+     <div class="w3-content w3-section" style="max-width:80%; margin: 1% 10% 2% 10%;">
+  <a href="mode-artikel3.html"><img class="mySlides" src="billeder/forside-slide1.jpg" style="width:100%" alt="mydailyspace"></a>
+  <a href="opskrift-artikel2.html"><img class="mySlides" src="billeder/forside-slide2.jpg" style="width:100%" alt="mydailyspace"></a>
   
             
 </div>
@@ -145,9 +144,9 @@ function carousel() {
     <!-- Artikelbilleder -->
      <div class="row"> 
         <div class="column">
-            <a href="nyheder-artikel5.html"><img src="billeder/forside-nyheder.jpg" alt="mydailyspace" alt="mydailyspace"></a>
-            <a href="artikel1-skonhed.html"><img src="billeder/forside-skonhed.jpg" alt="mydailyspace" alt="mydailyspace"></a>
-            <a href="opskrift-artikel3.html"><img src="billeder/forside-opskrifter.jpg" alt="mydailyspace" alt="mydailyspace"></a>
+            <a href="nyheder-artikel5.html"><img src="billeder/forside-nyheder.jpg" alt="mydailyspace"></a>
+            <a href="artikel1-skonhed.html"><img src="billeder/forside-skonhed.jpg" alt="mydailyspace"></a>
+            <a href="opskrift-artikel3.html"><img src="billeder/forside-opskrifter.jpg" alt="mydailyspace"></a>
         </div>
     </div> 
     
@@ -157,9 +156,9 @@ function carousel() {
     <!-- Artikelbilleder -->
      <div class="row"> 
         <div class="column">
-            <a href="ditliv-artikel5.html"><img src="billeder/forside-ditliv-100.jpg" alt="mydailyspace" alt="mydailyspace"></a>
-            <a href="sundhed-artikel4.html"><img src="billeder/forside-sundhed-100.jpg" alt="mydailyspace" alt="mydailyspace"></a>
-            <a href="opskrift-artikel2.html"><img src="billeder/forside-opskrift-100.jpg" alt="mydailyspace" alt="mydailyspace"></a>
+            <a href="ditliv-artikel5.html"><img src="billeder/forside-ditliv-100.jpg" alt="mydailyspace"></a>
+            <a href="sundhed-artikel4.html"><img src="billeder/forside-sundhed-100.jpg" alt="mydailyspace"></a>
+            <a href="opskrift-artikel2.html"><img src="billeder/forside-opskrift-100.jpg" alt="mydailyspace"></a>
         </div>
     </div> 
     
@@ -168,14 +167,14 @@ function carousel() {
     
     <!-- Reklame div -->
     <div class="reklame-forside">
-        <img src="billeder/reklame2.png">
+        <img src="billeder/reklame2.png" alt="mydailyspace">
     </div>
     
     <!-- Instagram overskrift -->
     <h1>Følg <a href="javascript:voied();" onClick="popIt('https://www.instagram.com/mydailyspace/')">@MY DAILY SPACE</a> på Instagram</h1>
     
 <!-- Instagram slide -->
-<iframe src="https://snapwidget.com/embed/544165" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1500px; height:300px"></iframe>
+<iframe src="https://snapwidget.com/embed/544165" class="snapwidget-widget"  style="border:none; overflow:hidden; width:1500px; height:300px"></iframe>
     
     <!-- Overskrift -->
  <h1 class="overskrift">Kunne du være interesseret i ... <hr></h1>
@@ -183,9 +182,9 @@ function carousel() {
     <!-- Artikelbilleder -->
      <div class="row"> 
         <div class="column">
-            <a href="rejser-artikel4.html"><img src="billeder/forside-rejse-100.jpg" alt="behandling"></a>
-            <a href="kultur-artikel3.html"><img src="billeder/forsidebillede-kultur-100.jpg" alt="behandling"></a>
-            <a href="artikel6-underholdning.html"><img src="billeder/forsidebillede-underholdning-100.jpg" alt="behandling"></a>
+            <a href="rejser-artikel4.html"><img src="billeder/forside-rejse-100.jpg" alt="mydailyspace"></a>
+            <a href="kultur-artikel3.html"><img src="billeder/forsidebillede-kultur-100.jpg" alt="mydailyspace"></a>
+            <a href="artikel6-underholdning.html"><img src="billeder/forsidebillede-underholdning-100.jpg" alt="mydailyspace"></a>
         </div>
     </div> 
     
@@ -211,7 +210,7 @@ function carousel() {
     
     <!-- Reklame div -->
      <div class="reklame-forside">
-        <img src="billeder/reklame2.png">
+        <img src="billeder/reklame2.png" alt="mydailyspace">
     </div>
 
 <!-- Burgermenu -->

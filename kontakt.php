@@ -24,7 +24,9 @@
     <!-- Burgermenu script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
-    
+    <!-- SEO META TAGS -->
+   <meta name="description" content="MY DAILY SPACE er et nyheds- og livsstilsmedie. Det er dit univers for kvinder, og her er alle de seneste nyheder samlet på et sted.">
+   <meta name="keywords" content="my daily space, kvinder, kvindeunivers, livsstilsmedie, nyheder">
    
 </head>
 <body>
@@ -33,9 +35,7 @@
         echo '<script>alert("Din besked er nu sendt!");</script>';
     }
     ?>
-     <!-- SEO META TAGS -->
-   <meta name="description" content="MY DAILY SPACE er et nyheds- og livsstilsmedie. Det er dit univers for kvinder, og her er alle de seneste nyheder samlet på et sted.">
-   <meta name="keywords" content="my daily space, kvinder, kvindeunivers, livsstilsmedie, nyheder">
+     
    
     <!-- logo -->
 	<a href="forside.php"><img src="billeder/logo.svg" class="logo" alt="logo"></a>
