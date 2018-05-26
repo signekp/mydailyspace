@@ -117,6 +117,7 @@ if(isset($_POST["signUp"])){
      <div class="w3-content w3-section" style="max-width:80%; margin: 1% 10% 2% 10%;">
   <a href="mode-artikel3.html"><img class="mySlides" src="billeder/forside-slide1.jpg" style="width:100%" alt="mydailyspace"></a>
   <a href="opskrift-artikel2.html"><img class="mySlides" src="billeder/forside-slide2.jpg" style="width:100%" alt="mydailyspace"></a>
+<a href="ditliv-artikel1.html"><img class="mySlides" src="billeder/forsideslide-ditliv.png" style="width:100%" alt="mydailyspace"></a>
   
             
 </div>
