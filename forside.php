@@ -93,7 +93,7 @@ if(isset($_POST["signUp"])){
        
         <a href="kontakt.php" class="desktop">Kontakt</a>
         <a href="#" class="soeglink"><i class="fa fa-search"></i></a>
-        <p class="soeg"><i class="fa fa-search"></i>_________</p>
+        <p class="soeg"><i class="fa fa-search"></i> Søg her ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 
     </nav>
@@ -109,7 +109,7 @@ if(isset($_POST["signUp"])){
                 <a href="okonomi.html" class="undermenu">Økonomi</a>
                 <a href="mobilmenu2.html" class="undermenu">Livsstil</a>
 				<a href="kontakt.php" class="undermenu">Kontakt</a>
-               <p>søg________</p>
+               <p><input type="text" placeholder="Søg her"></p>
 			</div>
 		</nav>
 
@@ -145,9 +145,9 @@ function carousel() {
     <!-- Artikelbilleder -->
      <div class="row"> 
         <div class="column">
-            <a href="nyheder-artikel5.html"><img src="billeder/forside-nyheder.jpg" alt="mydailyspace"></a>
-            <a href="artikel1-skonhed.html"><img src="billeder/forside-skonhed.jpg" alt="mydailyspace"></a>
-            <a href="opskrift-artikel3.html"><img src="billeder/forside-opskrifter.jpg" alt="mydailyspace"></a>
+            <a href="nyheder-artikel5.html"><img src="billeder/nyheder-artikel1.png" alt="mydailyspace"></a>
+            <a href="artikel1-skonhed.html"><img src="billeder/skonhed-artikel1.jpg" alt="mydailyspace"></a>
+            <a href="opskrift-artikel3.html"><img src="billeder/mad-artikel2.png" alt="mydailyspace"></a>
         </div>
     </div> 
     
@@ -157,9 +157,9 @@ function carousel() {
     <!-- Artikelbilleder -->
      <div class="row"> 
         <div class="column">
-            <a href="ditliv-artikel5.html"><img src="billeder/forside-ditliv-100.jpg" alt="mydailyspace"></a>
-            <a href="sundhed-artikel4.html"><img src="billeder/forside-sundhed-100.jpg" alt="mydailyspace"></a>
-            <a href="opskrift-artikel2.html"><img src="billeder/forside-opskrift-100.jpg" alt="mydailyspace"></a>
+            <a href="ditliv-artikel5.html"><img src="billeder/ditliv-artikel3.png" alt="mydailyspace"></a>
+            <a href="sundhed-artikel4.html"><img src="billeder/sundhed-artikel4.png" alt="mydailyspace"></a>
+            <a href="opskrift-artikel2.html"><img src="billeder/mad-artikel3.png" alt="mydailyspace"></a>
         </div>
     </div> 
     
@@ -183,9 +183,9 @@ function carousel() {
     <!-- Artikelbilleder -->
      <div class="row"> 
         <div class="column">
-            <a href="rejser-artikel4.html"><img src="billeder/forside-rejse-100.jpg" alt="mydailyspace"></a>
-            <a href="kultur-artikel3.html"><img src="billeder/forsidebillede-kultur-100.jpg" alt="mydailyspace"></a>
-            <a href="artikel6-underholdning.html"><img src="billeder/forsidebillede-underholdning-100.jpg" alt="mydailyspace"></a>
+            <a href="rejser-artikel4.html"><img src="billeder/artikel1-rejser.png" alt="mydailyspace"></a>
+            <a href="kultur-artikel3.html"><img src="billeder/artikel-kultur6.png" alt="mydailyspace"></a>
+            <a href="artikel6-underholdning.html"><img src="billeder/artikel-underholdning4.png" alt="mydailyspace"></a>
         </div>
     </div> 
     
