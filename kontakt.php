@@ -1,3 +1,25 @@
+<?php
+include("db_con.php");
+
+if(isset($_POST["signUp"])){
+	$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die("Ugyldig email");
+	mysqli_query($con, "INSERT INTO nyhedsbrev (email) VALUES ('{$email}')");
+	if(mysqli_affected_rows($con) > 0){
+        echo '<script>alert("Du er nu tilmeldt!");</script>';
+	} else {
+        echo '<script>alert("Din email er allerede tilmeldt!");</script>';
+	}
+} elseif(isset($_POST["signDown"])){
+	$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die("Ugyldig email");
+	mysqli_query($con, "DELETE FROM nyhedsbrev WHERE email='{$email}'");
+	if(mysqli_affected_rows($con) > 0){
+        echo '<script>alert("Du er nu afmeldt!");</script>';
+	} else {
+        echo '<script>alert("Din email er ikke tilmeldt!");</script>';
+	}
+}
+?>
+
 <!DOCTYPE html>
 <html lang="da">
     
@@ -130,6 +152,26 @@
 	</form>
 	
 </div>
+    
+    <!-- Nyhedsbrev overskrift -->
+    <h1 class="artikel-overskrift">Tilmeld nyhedsbrev</h1>
+    
+    <!-- Nyhedsbrev boks -->
+    <form action="kontakt.php" method="post">
+        
+        <div class="nyhedsbrev-boks-kontakt">
+            
+            <p class="nyheds-tekst-kontakt">Tilmeld dig MY DAILY SPACE’s nyhedsbrev og få de seneste nyheder indenfor både mode, skønhed, sundhed og mange flere ting. <br><br>
+
+                </p>
+            
+    <input type="email" id="email" name="email" placeholder="Din e-mail adresse" required class="nyhedsbrev-tekst-kontakt"/><br />
+            
+    <input type="submit" id="signUp" name="signUp" value="Tilmeld" class="knap" />
+        </div>
+        
+</form>
+    
 <!-- Burgermenu -->
 <script src="burgermagic.js"></script>
     

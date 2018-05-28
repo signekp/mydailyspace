@@ -42,9 +42,7 @@ if(isset($_POST["signUp"])){
           href="https://fonts.googleapis.com/css?family=Didot">
     
     <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
-    
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Bodoni">
+ 
     
     <!-- Burgermenu script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
