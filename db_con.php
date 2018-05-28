@@ -2,10 +2,10 @@
 <?php 
 session_start();
  
-const HOSTNAME = 'localhost'; // server navn
-const MYSQLUSER = 'root'; // super bruger (remote har man særskilte database brugere)
-const MYSQLPASS = 'root'; // bruger password
-const MYSQLDB = 'mydailyspace'; // database navn 
+const HOSTNAME = 'signepetersen.dk.mysql'; // server navn
+const MYSQLUSER = 'signepetersen_dk_mydailyspace'; // super bruger (remote har man særskilte database brugere)
+const MYSQLPASS = '0208signe'; // bruger password
+const MYSQLDB = 'signepetersen_dk_mydailyspace'; // database navn 
 
 
 $con = new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
