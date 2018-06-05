@@ -38,8 +38,7 @@ if(isset($_POST["signUp"])){
 
     <link rel="stylesheet" type="text/css" href="style-large.css" media="screen and (min-width: 900px)">
     
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Didot">
+    <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
     
     <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
     

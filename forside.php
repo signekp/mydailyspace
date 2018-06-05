@@ -24,6 +24,7 @@ if(isset($_POST["signUp"])){
 <html lang="da">
     
 <head>
+    
     <title>MY DAILY SPACE</title>
     <!-- Æ, ø og å -->
     <meta charset="utf-8">
@@ -38,11 +39,10 @@ if(isset($_POST["signUp"])){
 
     <link rel="stylesheet" type="text/css" href="style-large.css" media="screen and (min-width: 900px)">
     
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Didot">
-    
     <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
- 
+
+    <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
+
     
     <!-- Burgermenu script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -137,15 +137,20 @@ function carousel() {
 }
 </script>
     
+     <!-- Reklame div -->
+    <div class="reklame-forside">
+        <img src="billeder/reklame2.png" alt="mydailyspace">
+    </div>
+    
     <!-- Overskrift -->
     <h1 class="overskrift">Nyeste artikler<hr></h1>
         
     <!-- Artikelbilleder -->
      <div class="row"> 
         <div class="column">
-            <a href="nyheder-artikel5.html"><img src="billeder/nyheder-artikel1.png" alt="mydailyspace"></a>
+            <a href="nyheder-artikel1.html"><img src="billeder/nyheder-artikel1.png" alt="mydailyspace"></a>
             <a href="artikel1-skonhed.html"><img src="billeder/skonhed-artikel1.jpg" alt="mydailyspace"></a>
-            <a href="opskrift-artikel3.html"><img src="billeder/mad-artikel2.png" alt="mydailyspace"></a>
+            <a href="opskrift-artikel2.html"><img src="billeder/mad-artikel2.png" alt="mydailyspace"></a>
         </div>
     </div> 
     
@@ -155,19 +160,16 @@ function carousel() {
     <!-- Artikelbilleder -->
      <div class="row"> 
         <div class="column">
-            <a href="ditliv-artikel5.html"><img src="billeder/ditliv-artikel3.png" alt="mydailyspace"></a>
+            <a href="ditliv-artikel3.html"><img src="billeder/ditliv-artikel3.png" alt="mydailyspace"></a>
             <a href="sundhed-artikel4.html"><img src="billeder/sundhed-artikel4.png" alt="mydailyspace"></a>
-            <a href="opskrift-artikel2.html"><img src="billeder/mad-artikel3.png" alt="mydailyspace"></a>
+            <a href="opskrift-artikel3.html"><img src="billeder/mad-artikel3.png" alt="mydailyspace"></a>
         </div>
     </div> 
     
 
     
     
-    <!-- Reklame div -->
-    <div class="reklame-forside">
-        <img src="billeder/reklame2.png" alt="mydailyspace">
-    </div>
+   
     
     <!-- Instagram overskrift -->
     <h1>Følg <a href="javascript:voied();" onClick="popIt('https://www.instagram.com/mydailyspace/')">@MY DAILY SPACE</a> på Instagram</h1>
@@ -181,9 +183,9 @@ function carousel() {
     <!-- Artikelbilleder -->
      <div class="row"> 
         <div class="column">
-            <a href="rejser-artikel4.html"><img src="billeder/artikel1-rejser.png" alt="mydailyspace"></a>
-            <a href="kultur-artikel3.html"><img src="billeder/artikel-kultur6.png" alt="mydailyspace"></a>
-            <a href="artikel6-underholdning.html"><img src="billeder/artikel-underholdning4.png" alt="mydailyspace"></a>
+            <a href="rejser-artikel1.html"><img src="billeder/artikel1-rejser.png" alt="mydailyspace"></a>
+            <a href="kultur-artikel6.html"><img src="billeder/artikel-kultur6.png" alt="mydailyspace"></a>
+            <a href="artikel4-underholdning.html"><img src="billeder/artikel-underholdning4.png" alt="mydailyspace"></a>
         </div>
     </div> 
     

@@ -6,8 +6,8 @@
 }
 
 .logo {
-    width: 20%;
-    margin: 0% 40% -1% 40%;
+    width: 16%;
+    margin: 0% 42% -1% 42%;
 }
 
 hr {
@@ -28,7 +28,6 @@ width: 25%;
 padding: 0px 25px 0px 25px;
     
 }
-
 
 
 /* forside // lang reklame */
@@ -97,7 +96,6 @@ h1 hr {
     border-radius: 5px;
     border: #d1d1d1 1px solid;; 
     height: 25px;
-    font-family: Didot;
     font-size: 16px;
     justify-content: center;
     flex-direction: column;
@@ -149,13 +147,12 @@ textarea {
 .artikel-baggrund {
     width: 70%;
     margin: 0% 15% 2% 15%;
-    border: 1px solid #bcbcbc
+    border: 1px solid #bcbcbc;
 }
 
 .artikel-baggrund h2 {
     font-size: 27px;
     padding: 2% 3% 0.5% 3%;
-    font-family: helvetica neue;
     text-align: left;
 }
 
@@ -163,13 +160,11 @@ textarea {
     text-align: left;
     font-size: 27px;
     padding: 2% 3% 0.5% 3%;
-    font-family: helvetica neue;
 }
 
 .artikel-baggrund p {
     font-size: 16px;
     padding: 0% 3% 2% 3%;
-    font-family: helvetica neue;
     letter-spacing: 0.05em;
 }
 
